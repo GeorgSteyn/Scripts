@@ -1,0 +1,39 @@
+#!/bin/bash
+
+echo "#########################################################################
+###                 == Essential Software Install ==                  ###
+#########################################################################
+
+Choose a option by typing the corresponding number?
+If this is the first time that the Pacman Package Manger Updates. This could
+take a while because Pacman needs to update its Repo list.
+
+1) Complete Software Package: Anti-Virus: (ClamAV)
+                              Remote Desktop Software: (Remmina Remote Desktop)
+                              Internet Browser: (Chrome or Chromium) NOTE: This REMOVES Firefox Browser
+                              Terminals: (Guake Terminal)
+                              Video Player: (VLC Player)
+                              Git Gui Software: (GitKraken)
+                              Text Editor Software: (Atom)"
+echo "=========================================================================="
+PS3='Please enter your choice: '
+options=("Complete Software Package" "Quit")
+select opt in "${options[@]}"
+do
+    case $opt in
+        "Complete Software Package")
+            echo "
+            *   =========================   *
+            ==== Installation is Running ====
+            *   =========================   *
+            "
+            sudo pacman -Syu clamav remmina chromium guake vlc atom
+            sudo pacman -R firefox
+            yaourt -Syu gitkraken
+            ;;
+        "Quit")
+            break
+            ;;
+        *) echo invalid option;;
+    esac
+done

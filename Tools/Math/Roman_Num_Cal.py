@@ -34,4 +34,4 @@ class RomanNumerals():
 
         raw_roman_num = re.split(r'\s(?=(?:CM|XC|IX|IV|M|D|C|L|X|V|I\b)', rome_num)  # raw_roman_num = (M,D,L,V,I,I)
         for num in raw_roman_num:
-            if num == CM:
+            if num == roman_nums[]:
