@@ -1,3 +1,3 @@
 #!/bin/sh
 # Mount the drive to the correct path. DO THIS MANUALLY ALWAYS!!!
-cp -r -u -v 1475624130_water.ico 1475624130_water.ico Alan/ _argiewe/ Bernhardt/ Fransua/ gerrie/ ICD-10/ MantisTimer.exe NHN/ programmers/ 1475624202_bolt.ico Andries/ _backup/ CHF/ garth/ gert/ Installs/ Margrit/ nicholas/ Pryse/ 2017_Tariewe/ argiewe/ Bart/ Downloads.7z Georg/ gx32test/ klientedata/ Marnus/ Norman/ Pret/ upsource-3.5.3597.zip -t /mnt/sdd1/share8/
+cp -r -u -v 0023.pdf Andries/ Bernhardt/ gd6_20170220gd6_bdrive.rar ICD-10/ Marnus/ SQLAccrossRegions.exe 1475624130_water.ico argiewe/ CHF/ Georg/ Installs/ NHN/ Pret/ upsource-3.5.3597.zip* 1475624202_bolt.ico _argiewe/ Downloads.7z gerrie/ klientedata/ nicholas/ programmers/ 2017_Tariewe/ _backup/ Fransua/ gert/ MantisTimer.exe Norman/ Pryse/ Alan/ Bart/ garth/ gx32test/ Margrit/ run_mantistimer.bat -t /mnt/sdd1/share8/
